@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&family=Rowdies:wght@300;400&display=swap');
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #772720;
+    width: 100%;
+    height: 68px;
+    position: fixed;
+    z-index: 2;
+}
+
+#menub {
+    float: right;
+    margin-right: 3%;
+    list-style: none;
+    margin-top: 2px;
+}
+
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #dab49d;
+    padding: 20 10 20 10;
+    float: right;
+    font-size: 18px;
+}
+
+li:hover {
+    background-color: #888164;
+    font-size: 20px;
+}
+
+#capa {
+    background: url(imagens/abertura.gif);
+    height: 100%;
+    width: 100%;
+}
+
+#titulo {
+    font-size: 40px;
+    background-image: url(imagens/titulo1.jpeg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4f1930;
+    border: solid 10px #4f1930;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#gifs {
+    width: 90%;
+    height: 50%;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#gifs:hover {
+    width: 93%;
+    height: 53%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+#textoe {
+    text-align: left;
+    margin-left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40%;
+    position: relative;
+    float: left;
+}
+
+#nomefilm {
+    font-size: 25px;
+}
+
+#filmdescription {
+    font-size: 18px;
+}
+
+#textod {
+    text-align: right;
+    margin-right: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 45%;
+    position: relative;
+    float: right;
+    margin-top: 3%;
+}
+
+#corf {
+    background-color: #fffbe7;
+}
+
+#pesquisa {
+    margin-left: 5%;
+    width: 90%;
+    height: 350px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#imag {
+    width: 100%;
+}
+
+@media all and (max-width: 762px) {
+
+    #menub {
+        visibility: hidden;
+    }
+
+    #capap {
+        height: 60%;
+        width: 100%;
+        align-items: center;
+    }
+
+    #titulop {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 70px;
+        margin-bottom: 0%;
+        padding-top: 45%;
+        text-align: center;
+    }
+
+    #subtitulop {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 1px;
+    }
+
+    #gifs {
+        width: 90%;
+        height: 25%;
+        align-items: center;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;  
+    }
+
+    #pesquisa {
+        margin-left: 5%;
+        width: 90%;
+        height: 40%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #textod {
+        text-align:justify;
+        margin-right: 5%;
+        margin-left: 5%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 90%;
+        position: relative;
+        float: right;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+
+    #textoe {
+        text-align: left;
+        margin-left: 5%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 90%;
+        position: relative;
+        float: left;
+        margin-right: 5%;
+    }
+
+    #nomefilm {
+        font-size: 23px;
+    }
+
+}
